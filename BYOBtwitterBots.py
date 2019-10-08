@@ -26,7 +26,7 @@ def check_comment_length(comment):
 
 
 def get_comment():
-// edit socket url to reflect where you want the bot content to pull from
+# edit socket url to reflect where you want the bot content to pull from 
     socket = request.Request("http://www.website.com/random/video/", headers={'Cookie': 'age_verified=1'})
     a = request.urlopen(socket)
     soup = BeautifulSoup(a)
