@@ -1,3 +1,12 @@
+# __author__ = "Sebastian Gumprich"
+# __modified by__ = "binarygalwalkin"
+# __credits__ = ["Sebastian Gumprich", "binarygalwalkin"]
+# __license__ = "GPL"
+# __version__ = "v2.0"
+# __maintainer__ = "binarygalwalkin"
+
+
+
 from twitter import Twitter, OAuth
 from bs4 import BeautifulSoup
 from urllib import request
